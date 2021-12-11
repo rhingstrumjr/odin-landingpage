@@ -1,8 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
 header {
     display: flex;
     height: 50px;
     justify-content: space-around;
 }
-/* header div {
-    display: inline;
-} */
+
+a {
+    padding: .5em;
+}
