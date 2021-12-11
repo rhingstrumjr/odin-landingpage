@@ -5,7 +5,29 @@ html {
 * {
     box-sizing: inherit;
 }
+header, footer, .landing {
+    background-color: #1F2937;
+}
 
+h1, p {
+    margin: 2px;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+header div {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+button {
+    border-radius: 20px;
+    padding: 3px 12px;
+}
 header {
     display: flex;
     height: 50px;
@@ -14,4 +36,22 @@ header {
 
 a {
     padding: .5em;
+    text-decoration: none;
+}
+
+.lightened {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.flex-row {
+    display: flex;
+}
+
+.landing {
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.landing div {
+    width: 325px;
 }
